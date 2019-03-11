@@ -50,14 +50,6 @@ int main()
             printf("saddle point:[%d,%d]\n",i,colNum);
         }
     }
-
-
-
-
-
-
-
-
     return 0;
 }
 
