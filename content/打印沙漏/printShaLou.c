@@ -33,7 +33,7 @@ void printShaLou(int n,char ch){
         for(k=0;k<i;k++)
             printf(" ");
         for(k=0;k<topNum;k++)
-            printf("*");
+            putchar(ch);
         topNum -= 2;
         i++;
         printf("\n");
@@ -47,7 +47,7 @@ void printShaLou(int n,char ch){
         for(k=0;k<i;k++)
             printf(" ");
         for(k=0;k<topNum;k++)
-            printf("*");
+            putchar(ch);
         topNum += 2;
         i--;
         printf("\n");
@@ -61,7 +61,10 @@ void printShaLou(int n,char ch){
 //²âÊÔÓÃÀý
 int main()
 {
-    printShaLou(2211,'*');
+    int n;
+    char ch;
+    scanf("%d %c",&n,&ch);
+    printShaLou(n,ch);
 
     return 0;
 }
