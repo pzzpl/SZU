@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//´òÓ¡É³Â©
+//æ‰“å°æ²™æ¼
 
 
 void printShaLou(int n,char ch){
@@ -10,13 +10,13 @@ void printShaLou(int n,char ch){
     }
 
 
-    int leftOver = n;//Ê£ÓàÃ»ÓÃµÄ×Ö·û
+    int leftOver = n;//å‰©ä½™æ²¡ç”¨çš„å­—ç¬¦
     int i,k = 0,topNum;
-    int temp;//ÓÃÓÚÁÙÊ±´æ´¢ topNum
+    int temp;//ç”¨äºŽä¸´æ—¶å­˜å‚¨ topNum
 
-    i=1;//ÒòÎªÓÐÒ»¸öÔÚÁ½¸öµ¹Èý½ÇÖ®¼ä
+    i=1;//å› ä¸ºæœ‰ä¸€ä¸ªåœ¨ä¸¤ä¸ªå€’ä¸‰è§’ä¹‹é—´
 
-    //¼ÆËãtopNum
+    //è®¡ç®—topNum
     leftOver--;
     while(leftOver >= (2*i+1)*2){
         leftOver -= (2*i+1)*2;
@@ -27,13 +27,13 @@ void printShaLou(int n,char ch){
     temp = topNum;
 
 
-    //Ò»ÏÂ¶¼ÊÇ´òÓ¡É³Â©µÄ´úÂë
+    //ä¸€ä¸‹éƒ½æ˜¯æ‰“å°æ²™æ¼çš„ä»£ç 
     i=0;
     while(topNum >= 1){
         for(k=0;k<i;k++)
             printf(" ");
         for(k=0;k<topNum;k++)
-            printf("*");
+            putchar(ch);
         topNum -= 2;
         i++;
         printf("\n");
@@ -47,7 +47,7 @@ void printShaLou(int n,char ch){
         for(k=0;k<i;k++)
             printf(" ");
         for(k=0;k<topNum;k++)
-            printf("*");
+            putchar(ch);
         topNum += 2;
         i--;
         printf("\n");
@@ -58,10 +58,13 @@ void printShaLou(int n,char ch){
 }
 
 
-//²âÊÔÓÃÀý
+//æµ‹è¯•ç”¨ä¾‹
 int main()
 {
-    printShaLou(2211,'*');
+    int n;
+    char ch;
+    scanf("%d %c",&n,&ch);
+    printShaLou(n,ch);
 
     return 0;
 }
