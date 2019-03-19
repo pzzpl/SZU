@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1552986476 source:e:\c_interview\shiyan_57_leetcode102\main.c
+	<stdio.h>
+	<stdlib.h>
+	"common.h"
+
+1552983443 e:\c_interview\shiyan_57_leetcode102\common.h
+
+1552984776 source:e:\c_interview\shiyan_57_leetcode102\orderseqgettree.c
+	<stdio.h>
+	<stdlib.h>
+	"common.h"
+
