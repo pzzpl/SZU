@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T13:08:21.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FtGeuODe1FSr5sSE-vV8" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:46:25.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="K1aZH7yJi1W-T4hxuez8" version="21.3.2" type="github">
   <diagram name="第 1 页" id="lzAguIjJtXdegR4g2O8T">
-    <mxGraphModel dx="819" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,20 +10,26 @@
         <mxCell id="UXz7WkWY1RPlcXzImyis-1" value="静态代码分析获取类型依赖图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UXz7WkWY1RPlcXzImyis-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXz7WkWY1RPlcXzImyis-2" target="UXz7WkWY1RPlcXzImyis-4">
+        <mxCell id="UXz7WkWY1RPlcXzImyis-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXz7WkWY1RPlcXzImyis-2" target="UXz7WkWY1RPlcXzImyis-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UXz7WkWY1RPlcXzImyis-2" value="计算传递闭包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXz7WkWY1RPlcXzImyis-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXz7WkWY1RPlcXzImyis-4" target="UXz7WkWY1RPlcXzImyis-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UXz7WkWY1RPlcXzImyis-4" value="用例规模缩减" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXz7WkWY1RPlcXzImyis-6" value="用例调用顺序排序" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXz7WkWY1RPlcXzImyis-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXz7WkWY1RPlcXzImyis-9" target="UXz7WkWY1RPlcXzImyis-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXz7WkWY1RPlcXzImyis-9" value="逆置有向边" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
