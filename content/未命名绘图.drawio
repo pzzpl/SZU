@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T03:27:54.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="-ArI93Iax50c2mEEzbmi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T03:30:48.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="3bMz0XLdgfnqZXVvEbNe" version="21.3.2" type="github">
   <diagram name="第 1 页" id="7M-l7BR7Un3b2fesvWjB">
-    <mxGraphModel>
+    <mxGraphModel dx="696" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0acKbD2YNwJu18VlAzpX-1" value="class Vehicle {...}&#xa;class Engine{...}&#xa;class Tire {...}&#xa;class Car extends Vehicle {&#xa;public Engine engine;&#xa;public Tire tire;&#xa;}&#xa;class Person {&#xa;void driveCar(Car car) {...}&#xa;}" style="rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="145" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-2" value="继承" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="388" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-3" value="Tire" style="ellipse;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="234" y="181" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-4" value="Vehicle" style="ellipse;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="363" y="57" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="0acKbD2YNwJu18VlAzpX-8" target="0acKbD2YNwJu18VlAzpX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="0acKbD2YNwJu18VlAzpX-8" target="0acKbD2YNwJu18VlAzpX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="0acKbD2YNwJu18VlAzpX-8" target="0acKbD2YNwJu18VlAzpX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-8" value="Car" style="ellipse;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="363" y="181" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="0acKbD2YNwJu18VlAzpX-10" target="0acKbD2YNwJu18VlAzpX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-10" value="Person" style="ellipse;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="496" y="181" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-11" value="Engine" style="ellipse;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="363" y="299" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-12" value="聚合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-13" value="聚合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357" y="261" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-14" value="关联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-15" value="a）类依赖关系代码图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="69.5" y="379" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0acKbD2YNwJu18VlAzpX-16" value="b）类型依赖图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="379" width="141" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
